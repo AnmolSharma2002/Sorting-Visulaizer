@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Sorting Visualizer</h1>
+        <nav>
+            <button id="bubbleSortBtn">Bubble Sort</button>
+            <button id="selectionSortBtn">Selection Sort</button>
+            <button id="quickSortBtn">Quick Sort</button>
+            <button id="mergeSortBtn">Merge Sort</button>
+            <button id="resetBtn">Reset</button>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="array-container">
+            <!-- This div will contain the bars representing the elements of the array -->
+        </div>
+        <div id="controls">
+            <label for="arraySize">Array Size:</label>
+            <input type="number" id="arraySize" value="10" min="1" max="100">
+            <button id="generateArrayBtn">Generate Array</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Sorting Visualizer © 2024</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
